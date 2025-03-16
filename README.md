@@ -2,24 +2,58 @@
 
 A modern financial management application built with Next.js, Prisma, and PostgreSQL.
 
-## Author
-DavidTsykunov
-
 ## Features
 
-- 🔐 Secure user authentication
-- 💰 Account management
-- 📊 Transaction tracking
-- 💱 Multi-currency support
-- 📱 Responsive design
+* 🔐 Secure Authentication
+  - User-friendly login and registration forms
+  - Password recovery functionality
+  - Remember me option
+* 💰 Account Management
+  - Real-time balance tracking
+  - Multiple account support
+  - Transaction history
+* 📊 Financial Analytics
+  - Monthly income/expense tracking
+  - Investment portfolio monitoring
+  - Transaction categorization
+* 💱 Modern UI/UX
+  - Responsive design
+  - Dark theme
+  - Interactive components
+  - Real-time updates
 
 ## Tech Stack
 
-- **Frontend:** Next.js, React, TailwindCSS, Redux
-- **Backend:** Next.js API Routes
-- **Database:** PostgreSQL
-- **ORM:** Prisma
-- **Authentication:** NextAuth.js
+* **Frontend:**
+  - Next.js 14
+  - React
+  - TailwindCSS
+  - React Icons
+* **Backend:**
+  - Next.js API Routes
+  - Prisma ORM
+* **Database:**
+  - PostgreSQL
+* **Authentication:**
+  - NextAuth.js
+
+## Pages
+
+1. **Landing Page** (/)
+   - Modern gradient design
+   - Feature showcase
+   - Quick access to auth
+
+2. **Authentication**
+   - Sign In (/auth/signin)
+   - Registration (/auth/register)
+   - Password Recovery
+
+3. **Dashboard** (/dashboard)
+   - Financial overview
+   - Recent transactions
+   - Quick actions
+   - Analytics widgets
 
 ## Getting Started
 
@@ -30,6 +64,7 @@ git clone https://github.com/HullyMully/Financial-Dashboard.git
 
 2. Install dependencies
 ```bash
+cd financial-dashboard
 npm install
 ```
 
@@ -64,4 +99,8 @@ Feel free to submit issues and pull requests.
 
 ## License
 
-MIT License 
+MIT License
+
+## Author
+
+DavidTsykunov 
